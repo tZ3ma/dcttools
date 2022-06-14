@@ -1,0 +1,32 @@
+# .flake8
+[flake8]
+application-import-names = maputils,tests,noxfile
+# B,B9 = Bugbear; BLK= black warning; C = mccabe complexity; D = Docstring; F = pyflake errors; W,E = pycodestyle; I = import order; S=Securtiy
+select = B,B9,B950,BLK,C,D,DAR,E,F,I,N,RST,S,W
+docstring-convention = numpy
+# ignore incompatible black warnings:
+# E203 (Whitespace before ‘:')
+# W503 (Line break before binary operator)
+extend-ignore = E203,W503,E501
+max-complexity = 10
+max-line-length = 79
+# ignore assert warning in tests, sinc pytests requires asserts
+per-file-ignores = tests/*:S101
+
+# extend the flake8 known rst-roles:
+# credit goes to peterjc
+# https://github.com/peterjc/flake8-rst-docstrings/pull/16
+rst-roles =
+    attr,class,func,meth,mod,obj,ref,term,
+    # Python programming language:
+    py:func,py:mod,
+    # Sphinx Plugins:
+    paramref
+
+# extend the flake8 known rst-directives:
+# credit goes to peterjc
+# https://github.com/peterjc/flake8-rst-docstrings/pull/16
+rst-directives =
+    # These are sorted alphabetically - but that does not matter
+    autosummary,data,currentmodule,deprecated,
+    glossary,moduleauthor,plot,testcode,
