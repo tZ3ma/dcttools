@@ -3,7 +3,7 @@
 Quick Start
 ===========
 
-Following sections provide a - little talk, much code - introduction to maputils.
+Following sections provide a - little talk, much code - introduction to dcttools.
 Everything should be copy-pastable and work out of the box, given your
 :ref:`installation` was successful.
 
@@ -15,5 +15,5 @@ First Copy-Paste
 
 .. code::
 
-   import maputils
-   maputils.depth({})
+   import dcttools
+   dcttools.depth({})

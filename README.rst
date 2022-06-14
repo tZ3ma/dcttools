@@ -1,4 +1,4 @@
-maputils
+dcttools
 ========
 
 |PyPI| |Python Version| |License| |Status|
@@ -11,68 +11,68 @@ maputils
 
 |pre-commit| |Black| |Pylint| |Flake8|
 
-.. |PyPI| image:: https://img.shields.io/pypi/v/maputils.svg
-   :target: https://pypi.org/project/maputils/
+.. |PyPI| image:: https://img.shields.io/pypi/v/dcttools.svg
+   :target: https://pypi.org/project/dcttools/
    :alt: PyPI
 
-.. |Python Version| image:: https://img.shields.io/pypi/pyversions/maputils
-   :target: https://pypi.org/project/maputils
+.. |Python Version| image:: https://img.shields.io/pypi/pyversions/dcttools
+   :target: https://pypi.org/project/dcttools
    :alt: Python Version
 
-.. |License| image:: https://img.shields.io/pypi/l/maputils
+.. |License| image:: https://img.shields.io/pypi/l/dcttools
    :target: https://opensource.org/licenses/MIT
    :alt: License
 
-.. |Status| image:: https://img.shields.io/pypi/status/maputils.svg
-   :target: https://pypi.org/project/maputils/
+.. |Status| image:: https://img.shields.io/pypi/status/dcttools.svg
+   :target: https://pypi.org/project/dcttools/
    :alt: Status
 
-.. |Stable Release| image:: https://github.com/tZ3ma/maputils/workflows/Stable-PyPI-Release/badge.svg
-   :target: https://github.com/tZ3ma/maputils/actions?workflow=Stable-PyPI-Release
+.. |Stable Release| image:: https://github.com/tZ3ma/dcttools/workflows/Stable-PyPI-Release/badge.svg
+   :target: https://github.com/tZ3ma/dcttools/actions?workflow=Stable-PyPI-Release
    :alt: Stable PyPI Release Workflow Status
 
-.. |Develop Release| image:: https://github.com/tZ3ma/maputils/workflows/Develop-TestPyPI-Release/badge.svg
-   :target: https://github.com/tZ3ma/maputils/actions?workflow=Develop-TestPyPI-Release
+.. |Develop Release| image:: https://github.com/tZ3ma/dcttools/workflows/Develop-TestPyPI-Release/badge.svg
+   :target: https://github.com/tZ3ma/dcttools/actions?workflow=Develop-TestPyPI-Release
    :alt: Develop TestPyPI Release Workflow Status
 
-.. |Read the Docs| image:: https://img.shields.io/readthedocs/maputils/latest.svg?label=Read%20the%20Docs
-   :target: https://maputils.readthedocs.io/
-   :alt: Read the documentation at https://maputils.readthedocs.io/
+.. |Read the Docs| image:: https://img.shields.io/readthedocs/dcttools/latest.svg?label=Read%20the%20Docs
+   :target: https://dcttools.readthedocs.io/
+   :alt: Read the documentation at https://dcttools.readthedocs.io/
 
-.. |Tests| image:: https://github.com/tZ3ma/maputils/workflows/Tests-and-Coverage/badge.svg
-   :target: https://github.com/tZ3ma/maputils/actions?workflow=Tests-and-Coverage
+.. |Tests| image:: https://github.com/tZ3ma/dcttools/workflows/Tests-and-Coverage/badge.svg
+   :target: https://github.com/tZ3ma/dcttools/actions?workflow=Tests-and-Coverage
    :alt: Tests Workflow Status
 
-.. |Safety| image:: https://github.com/tZ3ma/maputils/workflows/Safety/badge.svg
-   :target: https://github.com/tZ3ma/maputils/actions?workflow=Safety
+.. |Safety| image:: https://github.com/tZ3ma/dcttools/workflows/Safety/badge.svg
+   :target: https://github.com/tZ3ma/dcttools/actions?workflow=Safety
    :alt: Safety Workflow Status
 
-.. |Pylinting| image:: https://github.com/tZ3ma/maputils/workflows/Pylinting/badge.svg
-   :target: https://github.com/tZ3ma/maputils/actions?workflow=Pylinting
+.. |Pylinting| image:: https://github.com/tZ3ma/dcttools/workflows/Pylinting/badge.svg
+   :target: https://github.com/tZ3ma/dcttools/actions?workflow=Pylinting
    :alt: Pylint Workflow Status
 
-.. |Flake8 Linting| image:: https://github.com/tZ3ma/maputils/workflows/Flake8-Linting/badge.svg
-   :target: https://github.com/tZ3ma/maputils/actions?workflow=Flake8-Linting
+.. |Flake8 Linting| image:: https://github.com/tZ3ma/dcttools/workflows/Flake8-Linting/badge.svg
+   :target: https://github.com/tZ3ma/dcttools/actions?workflow=Flake8-Linting
    :alt: Flake8-Linting Workflow Status
 
-.. |Pre-Commit| image:: https://github.com/tZ3ma/maputils/workflows/Pre-Commit/badge.svg
-   :target: https://github.com/tZ3ma/maputils/actions?workflow=Pre-Commit
+.. |Pre-Commit| image:: https://github.com/tZ3ma/dcttools/workflows/Pre-Commit/badge.svg
+   :target: https://github.com/tZ3ma/dcttools/actions?workflow=Pre-Commit
    :alt: Pre-Commit Workflow Status
 
-.. |Codecov| image:: https://codecov.io/gh/tZ3ma/maputils/branch/main/graph/badge.svg
-   :target: https://codecov.io/gh/tZ3ma/maputils
+.. |Codecov| image:: https://codecov.io/gh/tZ3ma/dcttools/branch/main/graph/badge.svg
+   :target: https://codecov.io/gh/tZ3ma/dcttools
    :alt: Codecov
 
 .. |Codacy| image:: https://app.codacy.com/project/badge/Grade/b278433bb9224147a2e6231d783b62e4
-   :target: https://app.codacy.com/gh/tZ3ma/maputils/dashboard
+   :target: https://app.codacy.com/gh/tZ3ma/dcttools/dashboard
    :alt: Codacy Code Quality Status
 
 .. |Codeclimate| image:: https://api.codeclimate.com/v1/badges/ff119252f0bb7f40aecb/maintainability
-   :target: https://codeclimate.com/github/tZ3ma/maputils/maintainability
+   :target: https://codeclimate.com/github/tZ3ma/dcttools/maintainability
    :alt: Maintainability
 
-.. |Scrutinizer| image:: https://scrutinizer-ci.com/g/tZ3ma/maputils/badges/quality-score.png?b=main
-   :target: https://scrutinizer-ci.com/g/tZ3ma/maputils/
+.. |Scrutinizer| image:: https://scrutinizer-ci.com/g/tZ3ma/dcttools/badges/quality-score.png?b=main
+   :target: https://scrutinizer-ci.com/g/tZ3ma/dcttools/
    :alt: Scrutinizer Code Quality
 
 .. |pre-commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
@@ -121,7 +121,7 @@ License
 -------
 
 Distributed under the terms of the `MIT license`_ (`Github Repo Link`_),
-*maputils* is free and open source software.
+*dcttools* is free and open source software.
 
 
 Issues
@@ -143,7 +143,7 @@ Hypermodern-Python_ project foundation proposed by `Claudio Jolowicz <cj>`_.
 .. _MIT license: https://opensource.org/licenses/MIT
 .. _PyPI: https://pypi.org/
 
-.. _file an issue: https://github.com/tZ3ma/maputils/issues
+.. _file an issue: https://github.com/tZ3ma/dcttools/issues
 .. _pip: https://pip.pypa.io/
 
 .. _tZ3ma: https://github.com/tZ3ma
@@ -153,7 +153,7 @@ Hypermodern-Python_ project foundation proposed by `Claudio Jolowicz <cj>`_.
 .. _Workflow-Guide: docs/source/developer_guide/workflows.rst
 
 
-.. _Github Repo Link: https://github.com/tZ3ma/maputils
+.. _Github Repo Link: https://github.com/tZ3ma/dcttools
 
 .. _API-Documentation: docs/source/api/core.rst
 .. _Poetry: https://python-poetry.org/

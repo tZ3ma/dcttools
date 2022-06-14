@@ -3,6 +3,6 @@
 Core
 ====
 
-.. automodule:: maputils.core
+.. automodule:: dcttools.core
    :members:
    :show-inheritance:

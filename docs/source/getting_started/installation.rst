@@ -27,14 +27,14 @@ Latest Stable Version
 ^^^^^^^^^^^^^^^^^^^^^
 .. code-block:: console
 
-   $ pip install maputils
+   $ pip install dcttools
 
 Latest Development Version (potentially unstable)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: console
 
-   $ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ maputils
+   $ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ dcttools
 
 This installs the TestPyPI_ version of :code:`MY-PROJECT` while resolving the dependencies on PyPI_.
 
@@ -48,7 +48,7 @@ Development Install
 
    .. code-block:: console
 
-      $ git clone https://github.com/tZ3ma/maputils [maputils-develop]
+      $ git clone https://github.com/tZ3ma/dcttools [dcttools-develop]
 
 4. Change to the new local repo folder and activate the desired
    `python versions`_ using pyenv:
@@ -82,7 +82,7 @@ Development Install
    .. code:: console
 
       $ poetry run python
-      $ poetry run maputils
+      $ poetry run dcttools
 
 
 .. _PyPI: https://pypi.org/

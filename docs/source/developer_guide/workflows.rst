@@ -247,9 +247,9 @@ commands:
 
    poetry add package^1.0
    poetry add "package>=1.0"
-   poetry add maputils@latest
-   poetry add git+https://github.com/tZ3ma/maputils.git
-   poetry add git+https://github.com/tZ3ma/maputils.git#develop
+   poetry add dcttools@latest
+   poetry add git+https://github.com/tZ3ma/dcttools.git
+   poetry add git+https://github.com/tZ3ma/dcttools.git#develop
    poetry add ./my-package/
 
 Adding local dependencies in editable mode

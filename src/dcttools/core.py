@@ -1,4 +1,4 @@
-# src/maputils/core.py
+# src/dcttools/core.py
 """
 A collection of dictionairy utilities.
 
@@ -6,10 +6,10 @@ Used to grow on the fly. Aims to provide general purpose abstact
 functionalities.
 
 .. note::
-    All core functionalities are known to the toplevel maputils model.
+    All core functionalities are known to the toplevel dcttools model.
     Meaning they can be used like::
 
-        maputils.depth(...)
+        dcttools.depth(...)
 
 .. autosummary::
    :nosignatures:

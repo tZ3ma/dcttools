@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "maputils"
-version = "0.1.1"
+name = "dcttools"
+version = "0.1.0"
 description = "Tweaked Hypermodern Python Project Template w/o Typing"
 authors = ["Mathias Ammon <mathias.ammon@tuhh.de>"]
 license = "MIT"
 readme = "README.rst"
-repository = "https://github.com/tZ3ma/maputils"
-homepage = "https://github.com/tZ3ma/maputils"
+repository = "https://github.com/tZ3ma/dcttools"
+homepage = "https://github.com/tZ3ma/dcttools"
 keywords = ["hypermodern", "template"]
 
 [tool.poetry.dependencies]
@@ -39,7 +39,7 @@ source = ["src", "*/site-packages"]
 
 [tool.coverage.run]
 branch = true
-source = ["maputils"]
+source = ["dcttools"]
 
 [tool.coverage.report]
 show_missing = true

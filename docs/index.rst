@@ -1,4 +1,4 @@
-maputils
+dcttools
 ========
 
 Python **DICT**\ ionairy **UTIL**\ itie\ **S**\ . Rudimentary, outdated,

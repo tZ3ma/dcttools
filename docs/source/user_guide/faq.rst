@@ -10,8 +10,8 @@ Following sections try to provide a first clue on how to deal with commonly enco
 
 Import / API Usage
 ------------------
-All core functionalities are known to the toplevel maputils package.
+All core functionalities are known to the toplevel dcttools package.
 Meaning they can be used like::
 
-  import maputils
-  maputils.depth({})
+  import dcttools
+  dcttools.depth({})

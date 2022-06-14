@@ -1,2 +1,2 @@
-# maputils/tests/__init__.py
-"""maputils's (pytest) package."""
+# dcttools/tests/__init__.py
+"""dcttools's (pytest) package."""

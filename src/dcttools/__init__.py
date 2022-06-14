@@ -1,6 +1,6 @@
-# src/maputils/__init__.py
+# src/dcttools/__init__.py
 # flake8: noqa
-"""maputils - A colletion of dictionairy utilites."""
+"""dcttools - A colletion of dictionairy utilites."""
 from importlib.metadata import version
 
 from .core import (

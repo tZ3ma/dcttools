@@ -3,7 +3,7 @@
 API
 ===
 
-.. automodule:: maputils
+.. automodule:: dcttools
    :members:
    :show-inheritance:
 
