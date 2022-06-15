@@ -92,8 +92,8 @@ dcttools
    :alt: Package uses flake8
 
 
-Python **DICT**\ ionairy **UTIL**\ itie\ **S**\ . Rudimentary, outdated,
-everywhere else found.
+Python **D**\ i **CT**\ ionairy **TOOLS**\ . Rudimentary, outdated, everywhere
+else found.
 
 
 Installation
