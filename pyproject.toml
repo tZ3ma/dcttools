@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "dcttools"
 version = "0.1.3"
-description = "Tweaked Hypermodern Python Project Template w/o Typing"
+description = "Python Dictionairy Tools"
 authors = ["Mathias Ammon <mathias.ammon@tuhh.de>"]
 license = "MIT"
 readme = "README.rst"
 repository = "https://github.com/tZ3ma/dcttools"
 homepage = "https://github.com/tZ3ma/dcttools"
-keywords = ["hypermodern", "template"]
+keywords = ["python-3", "dictionairy-application"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
