@@ -33,7 +33,7 @@ print(sys.path)
 
 # -- Project information -----------------------------------------------------
 
-project = "dcttools - (Python) Dictionairy Utilities"
+project = "dcttools - (Python) Dictionairy Tools"
 author = "Mathias Ammon"
 copyright = f"2022, {author}"  # pylint: disable=redefined-builtin
 
