@@ -155,6 +155,6 @@ Hypermodern-Python_ project foundation proposed by `Claudio Jolowicz <cj>`_.
 
 .. _Github Repo Link: https://github.com/tZ3ma/dcttools
 
-.. _API-Documentation: docs/source/api/core.rst
+.. _API-Documentation: https://dcttools.readthedocs.io/en/latest/source/api.html
 .. _Poetry: https://python-poetry.org/
 .. _Nox: https://nox.thea.codes/
