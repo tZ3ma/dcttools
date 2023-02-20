@@ -11,7 +11,6 @@ keywords = ["python-3", "dictionairy-application"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-requests = "^2.27.1"
 pandas = "*"
 
 [tool.poetry.dev-dependencies]
@@ -33,6 +32,7 @@ pyupgrade = "^2.32.1"
 sphinx-paramlinks = "^0.5.2"
 pylint = "^2.14.0"
 nox = "^2022.1.7"
+nox-poetry = "^1.0.2"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]
